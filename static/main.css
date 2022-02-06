@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: palevioletred;
+}
+
+
+a:link, a:visited{
+    text-decoration: none;
+    font-size: 20px;
+    width: 300px;
+    position: relative;
+    left: 490px;
+    border-style: solid;
+    text-align: center;
+    background-color: yellow;
+    display: inline-block;
+}
+
+div.image{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
+
+div.info{
+    text-align: center;
+    font-family: sans-serif;
+    border-style: solid;
+    background-color: aliceblue; 
+    outline-style: solid;
+    outline-color: green;
+}
+
+div.main{
+    position: fixed;
+    left: 490px;
+    height: 1000px;
+    width: 1000px;
+}
+
+div.likes{
+    text-align:center;
+
+}
